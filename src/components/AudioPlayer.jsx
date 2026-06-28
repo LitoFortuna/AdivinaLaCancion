@@ -119,8 +119,15 @@ export default function AudioPlayer({ playing, progress, currentRound, onPlay, d
             : 'último clip'}
         </div>
 
-        <div className="relative">
-          {!playing && !disabled && <div className="pulse-ring" />}
+        <div style={{ position: 'relative' }}>
+          {!playing && !disabled && (
+            <div style={{
+              position: 'absolute', inset: -5, borderRadius: 9999,
+              border: '2px solid var(--green)', opacity: 0,
+              animation: 'pulse 2s ease-in-out infinite',
+              pointerEvents: 'none',
+            }} />
+          )}
           <button
             onClick={onPlay}
             disabled={disabled || playing}

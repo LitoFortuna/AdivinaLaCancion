@@ -12,9 +12,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'icons/*.png'],
       manifest: {
-        name: 'SpotiGuess - Adivina la Canción',
-        short_name: 'SpotiGuess',
-        description: 'Escucha un fragmento y adivina la canción de Spotify',
+        name: 'AdivinaLaCanción',
+        short_name: 'AdivinaLC',
+        description: 'Escucha un fragmento y adivina la canción del día — Top 100 de 6 países',
         theme_color: '#1DB954',
         background_color: '#121212',
         display: 'standalone',

@@ -30,7 +30,7 @@ export default function InstallPWA() {
           <span className="text-lg">&#127925;</span>
         </div>
         <div className="flex-1 min-w-0">
-          <p className="text-sm font-bold text-white">Instalar SpotiGuess</p>
+          <p className="text-sm font-bold text-white">Instalar AdivinaLaCanción</p>
           <p className="text-xs text-[rgba(255,255,255,0.5)] truncate">Juega offline desde tu pantalla de inicio</p>
         </div>
         <button onClick={handleInstall} className="btn-primary text-xs px-3 py-1.5 shrink-0">Instalar</button>

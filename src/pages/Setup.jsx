@@ -34,8 +34,8 @@ export default function Setup() {
           : <div />
         }
         <div className="flex items-baseline gap-0.5">
-          <span className="font-black text-2xl" style={{ color: 'var(--green)' }}>Spoti</span>
-          <span className="font-black text-2xl text-white">Guess</span>
+          <span className="font-black text-2xl text-white">Adivina</span>
+          <span className="font-black text-2xl" style={{ color: 'var(--green)' }}>LaCanción</span>
         </div>
         <div className="w-16" />
       </div>

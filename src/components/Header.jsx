@@ -34,8 +34,8 @@ export default function Header() {
           </button>
 
           <div className="flex items-baseline gap-0.5">
-            <span className="font-black text-xl tracking-tight" style={{ color: 'var(--green)' }}>Spoti</span>
-            <span className="font-black text-xl tracking-tight text-white">Guess</span>
+            <span className="font-black text-xl tracking-tight text-white">Adivina</span>
+            <span className="font-black text-xl tracking-tight" style={{ color: 'var(--green)' }}>LaCanción</span>
           </div>
 
           <button

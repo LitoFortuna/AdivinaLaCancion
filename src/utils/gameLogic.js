@@ -46,8 +46,8 @@ export function getScoreEmoji(state, track) {
     return '⬛'
   })
   const header = status === 'won'
-    ? `SpotiGuess ${lines.length}/${MAX_ATTEMPTS}`
-    : `SpotiGuess X/${MAX_ATTEMPTS}`
+    ? `AdivinaLaCanción ${lines.length}/${MAX_ATTEMPTS}`
+    : `AdivinaLaCanción X/${MAX_ATTEMPTS}`
   return `${header}\n${lines.join('')}\n🎵 ${track.name} - ${track.artist}`
 }
 
